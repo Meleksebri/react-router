@@ -7,6 +7,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
     rating: 4,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/TcMBFSGVi1c"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 2,
@@ -16,6 +27,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
     rating: 5,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/6ZfuNTqbHE8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 3,
@@ -25,6 +47,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg",
     rating: 5,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/JfVOs4VSpmA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 4,
@@ -34,6 +67,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
     rating: 3,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/vM-Bja2Gy04"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 5,
@@ -43,6 +87,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg",
     rating: 4,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/h7gvFravm4A"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 6,
@@ -52,6 +107,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg",
     rating: 5,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/ue80QwXMRHg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 7,
@@ -61,6 +127,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_FMjpg_UX1000_.jpg",
     rating: 2,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/x_me3xsvDgk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
   {
     id: 8,
@@ -70,6 +147,17 @@ const Movies = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
     rating: 3,
+    trailer: (
+      <iframe
+        width="800"
+        height="315"
+        src="https://www.youtube.com/embed/ybji16u608U"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
   },
 ];
 

@@ -7,6 +7,8 @@ import { useState } from "react";
 import Stars from "./components/Stars";
 import Filter from "./components/Filter";
 import Header from "./components/Header";
+import { Route, Routes } from "react-router-dom";
+import DescriptionPage from "./components/DescriptionPage";
 
 function App() {
   const [search1, setSearch1] = useState("");
@@ -18,8 +20,22 @@ function App() {
   return (
     <div>
       <Header addSerie={addNewSerie} />
-      <Filter search1={filter1} search2={filter2} />
-      <MovieList movie={movies} name={search1} rating={search2} />
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <>
+              <Filter search1={filter1} search2={filter2} />
+              <MovieList movie={movies} name={search1} rating={search2} />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/description/:id"
+          element={<DescriptionPage Movies={movies} />}
+        ></Route>
+      </Routes>
     </div>
   );
 }

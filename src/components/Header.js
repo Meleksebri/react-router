@@ -14,9 +14,9 @@ const Header = (props) => {
           Watchflix
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Movies</Nav.Link>
-          <Nav.Link href="#pricing">Series</Nav.Link>
+          <Nav.Link href="">Home</Nav.Link>
+          <Nav.Link href="">Movies</Nav.Link>
+          <Nav.Link href="">Series</Nav.Link>
           <AddCard addSerie={props.addSerie} />
         </Nav>
       </Container>
